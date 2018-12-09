@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{gregor2015draw}
+Gregor, K., Danihelka, I., Graves, A., Rezende, D.~J., and Wierstra, D., 2015,
+  \enquote{Draw: A recurrent neural network for image generation}, arXiv
+  preprint arXiv:1502.04623.
+
+\end{thebibliography}

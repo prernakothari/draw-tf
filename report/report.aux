@@ -1,0 +1,28 @@
+\relax 
+\providecommand*\new@tpo@label[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Variational Auto-Encoder Problem Statement}{1}}
+\citation{gregor2015draw}
+\newlabel{kl}{{4}{2}}
+\newlabel{rec}{{5}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}DRAW Network}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Network Architecture}{3}}
+\newlabel{read_op}{{8}{3}}
+\newlabel{write_op}{{12}{3}}
+\newlabel{klg}{{13}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Stochastic Data Generation}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {Left: Conventional Variational Auto-Encoder}. During generation, a sample z is drawn from a prior $P(z)$ and passed through the feedforward decoder network to compute the probability of the input $P(x|z)$ given the sample. During inference the input x is passed to the encoder network, producing an approximate posterior $Q(z|x)$ over latent variables. During training, z is sampled from $Q(z|x)$ and then used to compute the total loss, which is minimised with stochastic gradient descent. \textbf  {Right: DRAW Network}. At each time-step a sample $z_t$ from the prior $P(z_t)$ is passed to the recurrent decoder network, which then modifies part of the canvas matrix. The final canvas matrix $c_T$ is used to compute $P(x|z1:T)$. During inference the input is read at every timestep and the result is passed to the encoder RNN. The RNNs at the previous time-step specify where to read. The output of the encoder RNN is used to compute the approximate posterior over the latent variables at that time-step }}{4}}
+\newlabel{network_arch}{{1}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Read and Write Operations}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Reading and Writing without Attention}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Reading and Writing with Attention}{5}}
+\bibstyle{purwar}
+\bibdata{references}
+\bibcite{gregor2015draw}{1}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces DRAW Network Hyper Parameters}}{6}}
+\newlabel{hyper}{{1}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Step Wise Reconstruction}}{7}}
+\newlabel{recon}{{2}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Training of DRAW Network. Two losses (Reconstruction and KL Divergence) compete with each other to find an equilibrium.}}{8}}
+\newlabel{train}{{2}{8}}
