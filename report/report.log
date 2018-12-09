@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 DEC 2018 00:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 DEC 2018 00:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -186,35 +186,73 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 7.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 144.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count101
+\lst@gtempboxa=\box30
+\lst@token=\toks20
+\lst@length=\count102
+\lst@currlwidth=\dimen114
+\lst@column=\count103
+\lst@pos=\count104
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count105
+\lst@lineno=\count106
+\lst@maxwidth=\dimen117
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count107
+\lst@skipnumbers=\count108
+\lst@framebox=\box31
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
 (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count101
-\scratchdimen=\dimen114
-\scratchbox=\box30
-\nofMPsegments=\count102
-\nofMParguments=\count103
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count104
-\MPscratchDim=\dimen115
-\MPnumerator=\count105
-\makeMPintoPDFobject=\count106
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count109
+\scratchdimen=\dimen118
+\scratchbox=\box32
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen119
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks22
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -262,7 +300,9 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Overfull \hbox (1.3046pt too wide) in paragraph at lines 12--16
+\c@lstlisting=\count115
+
+Overfull \hbox (1.3046pt too wide) in paragraph at lines 53--57
 \OT1/cmr/m/n/10.95 tures for im-age gen-er-a-tion called \OT1/cmr/bx/n/10.95 D\
 OT1/cmr/m/n/10.95 eep \OT1/cmr/bx/n/10.95 R\OT1/cmr/m/n/10.95 ecurrent \OT1/cmr
 /bx/n/10.95 A\OT1/cmr/m/n/10.95 ttentive \OT1/cmr/bx/n/10.95 W\OT1/cmr/m/n/10.9
@@ -317,7 +357,7 @@ Missing character: There is no ’ in font cmr8!
  <networkarch.png, id=19, 1254.6875pt x 724.7075pt>
 File: networkarch.png Graphic file (type png)
  <use networkarch.png>
-Package pdftex.def Info: networkarch.png used on input line 112.
+Package pdftex.def Info: networkarch.png used on input line 153.
 (pdftex.def)             Requested size: 350.0pt x 202.1537pt.
 
 [3] [4 <./networkarch.png>]
@@ -342,97 +382,116 @@ Missing character: There is no ’ in font cmr8!
 File: pre_loss.png Graphic file (type png)
 
 <use pre_loss.png>
-Package pdftex.def Info: pre_loss.png used on input line 197.
+Package pdftex.def Info: pre_loss.png used on input line 238.
 (pdftex.def)             Requested size: 300.0pt x 225.00862pt.
  <new_0.png, id=32, 346.896pt x 346.896pt>
 File: new_0.png Graphic file (type png)
  <use new_0.png>
-Package pdftex.def Info: new_0.png used on input line 226.
+Package pdftex.def Info: new_0.png used on input line 267.
 (pdftex.def)             Requested size: 140.0pt x 139.99983pt.
 
 <new_1.png, id=33, 346.896pt x 346.896pt>
 File: new_1.png Graphic file (type png)
  <use new_1.png>
-Package pdftex.def Info: new_1.png used on input line 226.
+Package pdftex.def Info: new_1.png used on input line 267.
 (pdftex.def)             Requested size: 140.0pt x 139.99983pt.
 
 <new_2.png, id=34, 346.896pt x 346.896pt>
 File: new_2.png Graphic file (type png)
  <use new_2.png>
-Package pdftex.def Info: new_2.png used on input line 227.
+Package pdftex.def Info: new_2.png used on input line 268.
 (pdftex.def)             Requested size: 140.0pt x 139.99983pt.
 
 <new_3.png, id=35, 346.896pt x 346.896pt>
 File: new_3.png Graphic file (type png)
  <use new_3.png>
-Package pdftex.def Info: new_3.png used on input line 227.
+Package pdftex.def Info: new_3.png used on input line 268.
 (pdftex.def)             Requested size: 140.0pt x 139.99983pt.
 
 <new_4.png, id=36, 346.896pt x 346.896pt>
 File: new_4.png Graphic file (type png)
  <use new_4.png>
-Package pdftex.def Info: new_4.png used on input line 228.
+Package pdftex.def Info: new_4.png used on input line 269.
 (pdftex.def)             Requested size: 140.0pt x 139.99983pt.
 
 <new_5.png, id=37, 346.896pt x 346.896pt>
 File: new_5.png Graphic file (type png)
  <use new_5.png>
-Package pdftex.def Info: new_5.png used on input line 228.
+Package pdftex.def Info: new_5.png used on input line 269.
 (pdftex.def)             Requested size: 140.0pt x 139.99983pt.
 
 <new_6.png, id=38, 346.896pt x 346.896pt>
 File: new_6.png Graphic file (type png)
  <use new_6.png>
-Package pdftex.def Info: new_6.png used on input line 229.
+Package pdftex.def Info: new_6.png used on input line 270.
 (pdftex.def)             Requested size: 140.0pt x 139.99983pt.
 
 <new_7.png, id=39, 346.896pt x 346.896pt>
 File: new_7.png Graphic file (type png)
  <use new_7.png>
-Package pdftex.def Info: new_7.png used on input line 229.
+Package pdftex.def Info: new_7.png used on input line 270.
 (pdftex.def)             Requested size: 140.0pt x 139.99983pt.
 
 <new_8.png, id=40, 346.896pt x 346.896pt>
 File: new_8.png Graphic file (type png)
  <use new_8.png>
-Package pdftex.def Info: new_8.png used on input line 230.
+Package pdftex.def Info: new_8.png used on input line 271.
 (pdftex.def)             Requested size: 140.0pt x 139.99983pt.
 
 <new_9.png, id=41, 346.896pt x 346.896pt>
 File: new_9.png Graphic file (type png)
  <use new_9.png>
-Package pdftex.def Info: new_9.png used on input line 230.
+Package pdftex.def Info: new_9.png used on input line 271.
 (pdftex.def)             Requested size: 140.0pt x 139.99983pt.
 
 
-LaTeX Warning: Float too large for page by 149.99904pt on input line 233.
+LaTeX Warning: Float too large for page by 149.99904pt on input line 274.
 
-(./report.bbl) [6] [7 <./new_0.png> <./new_1.png> <./new_2.png> <./new_3.png> <
-./new_4.png> <./new_5.png> <./new_6.png> <./new_7.png> <./new_8.png> <./new_9.p
-ng>] [8 <./pre_loss.png>] (./report.aux) ) 
+(./report.bbl)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) [6]
+[7 <./new_0.png> <./new_1.png> <./new_2.png> <./new_3.png> <./new_4.png> <./new
+_5.png> <./new_6.png> <./new_7.png> <./new_8.png> <./new_9.png>] (./model.py
+[8 <./pre_loss.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+ [9] [10] [11]
+[12] [13] [14]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 218.
+ [15]) [16] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 3992 strings out of 493014
- 65452 string characters out of 6133351
- 218680 words of memory out of 5000000
- 7494 multiletter control sequences out of 15000+600000
- 10206 words of font info for 37 fonts, out of 8000000 for 9000
+ 5916 strings out of 493014
+ 92472 string characters out of 6133351
+ 377176 words of memory out of 5000000
+ 9384 multiletter control sequences out of 15000+600000
+ 11209 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,11n,51p,8505b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (8 pages, 447808 bytes).
+ 47i,12n,51p,8505b,1747s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/t1x
+btt.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/t1xtt.pf
+b>
+Output written on report.pdf (16 pages, 505607 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
